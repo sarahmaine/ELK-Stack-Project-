@@ -1,2 +1,2 @@
-# ELK-Stack-Project-
-This repository contains all the information related to the Elk Stack Project from Week 13.
+# Scripts-from-GWU-Bootcamp
+This repository contains all scripts wirrten throughout weeks 1-13 of GWU Bootcamp.
