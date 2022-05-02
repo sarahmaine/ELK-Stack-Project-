@@ -59,12 +59,12 @@ A summary of the access policies in place can be found in the table below.
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because Ansible is 
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because Ansible is streamlined. It simplifies the deployment and allows for the servers to be deployed using only a couple commands versus many tedious commands. 
 
 The playbook implements the following tasks:
 - The playbook will install docker.io, pip3, and the docker module.
-- Then, it will increase the virtual memory for the VM that is used to runk the ELK Server.
-- Finally, the plaubook will download and launch the docker container for the ELK Server.
+- Then, it will increase the virtual memory for the VM that is used to run the ELK Server.
+- Finally, the playbook will download and launch the docker container for the ELK Server.
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 ![ELKConfigurationComplete](https://user-images.githubusercontent.com/97468655/166198781-ef82a88d-3451-4ec3-bc7c-7addbc7b8d9d.png)
